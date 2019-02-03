@@ -1,0 +1,30 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Thu Mar 30 19:52:29 2017
+//! **************************************************************************
+
+SCHEMATIC START;
+CONFIG VCCAUX = "3.3";
+COMP "DPSwitch<0>" LOCATE = SITE "C17" LEVEL 1;
+COMP "DPSwitch<1>" LOCATE = SITE "C18" LEVEL 1;
+COMP "Switch<0>" LOCATE = SITE "K18" LEVEL 1;
+COMP "LED<0>" LOCATE = SITE "T18" LEVEL 1;
+COMP "DPSwitch<2>" LOCATE = SITE "D17" LEVEL 1;
+COMP "Switch<1>" LOCATE = SITE "K17" LEVEL 1;
+COMP "LED<1>" LOCATE = SITE "T17" LEVEL 1;
+COMP "DPSwitch<3>" LOCATE = SITE "D18" LEVEL 1;
+COMP "Switch<2>" LOCATE = SITE "L17" LEVEL 1;
+COMP "LED<2>" LOCATE = SITE "U18" LEVEL 1;
+COMP "DPSwitch<4>" LOCATE = SITE "E18" LEVEL 1;
+COMP "Switch<3>" LOCATE = SITE "M16" LEVEL 1;
+COMP "LED<3>" LOCATE = SITE "U17" LEVEL 1;
+COMP "DPSwitch<5>" LOCATE = SITE "E16" LEVEL 1;
+COMP "Switch<4>" LOCATE = SITE "L18" LEVEL 1;
+COMP "LED<4>" LOCATE = SITE "N16" LEVEL 1;
+COMP "DPSwitch<6>" LOCATE = SITE "F18" LEVEL 1;
+COMP "Switch<5>" LOCATE = SITE "M18" LEVEL 1;
+COMP "LED<5>" LOCATE = SITE "N15" LEVEL 1;
+COMP "DPSwitch<7>" LOCATE = SITE "F17" LEVEL 1;
+COMP "LED<6>" LOCATE = SITE "P16" LEVEL 1;
+COMP "LED<7>" LOCATE = SITE "P15" LEVEL 1;
+SCHEMATIC END;
+

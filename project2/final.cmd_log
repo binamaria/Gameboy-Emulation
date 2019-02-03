@@ -1,0 +1,93 @@
+xst -intstyle ise -ifn "D:/project2/final.xst" -ofn "D:/project2/final.syr" 
+xst -intstyle ise -ifn "D:/project2/final.xst" -ofn "D:/project2/final.syr" 
+xst -intstyle ise -ifn "D:/project2/final.xst" -ofn "D:/project2/final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg324-2 final.ngc final.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o final_map.ncd final.ngd final.pcf 
+par -w -intstyle ise -ol high -mt off final_map.ncd final.ncd final.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml final.twx final.ncd -o final.twr final.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg324-2 final.ngc final.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o final_map.ncd final.ngd final.pcf 
+par -w -intstyle ise -ol high -mt off final_map.ncd final.ncd final.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml final.twx final.ncd -o final.twr final.pcf 
+bitgen -intstyle ise -f final.ut final.ncd 
+xst -intstyle ise -ifn "D:/project2/final.xst" -ofn "D:/project2/final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraint.ucf -p xc6slx9-csg324-2 final.ngc final.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o final_map.ncd final.ngd final.pcf 
+par -w -intstyle ise -ol high -mt off final_map.ncd final.ncd final.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml final.twx final.ncd -o final.twr final.pcf -ucf constraint.ucf 
+bitgen -intstyle ise -f final.ut final.ncd 
+xst -intstyle ise -ifn "D:/project2/final.xst" -ofn "D:/project2/final.syr" 
+xst -intstyle ise -ifn "D:/project2/final.xst" -ofn "D:/project2/final.syr" 
+xst -intstyle ise -ifn "D:/project2/final.xst" -ofn "D:/project2/final.syr" 
+xst -intstyle ise -ifn "D:/project2/final.xst" -ofn "D:/project2/final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraint.ucf -p xc6slx9-csg324-2 final.ngc final.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o final_map.ncd final.ngd final.pcf 
+par -w -intstyle ise -ol high -mt off final_map.ncd final.ncd final.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml final.twx final.ncd -o final.twr final.pcf -ucf constraint.ucf 
+xst -intstyle ise -ifn "D:/project2/final.xst" -ofn "D:/project2/final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraint.ucf -p xc6slx9-csg324-2 final.ngc final.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o final_map.ncd final.ngd final.pcf 
+par -w -intstyle ise -ol high -mt off final_map.ncd final.ncd final.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml final.twx final.ncd -o final.twr final.pcf -ucf constraint.ucf 
+bitgen -intstyle ise -f final.ut final.ncd 
+xst -intstyle ise -ifn "D:/project2/final.xst" -ofn "D:/project2/final.syr" 
+xst -intstyle ise -ifn "D:/project2/final.xst" -ofn "D:/project2/final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraint.ucf -p xc6slx9-csg324-2 final.ngc final.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o final_map.ncd final.ngd final.pcf 
+par -w -intstyle ise -ol high -mt off final_map.ncd final.ncd final.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml final.twx final.ncd -o final.twr final.pcf -ucf constraint.ucf 
+bitgen -intstyle ise -f final.ut final.ncd 
+xst -intstyle ise -ifn "D:/project2/final.xst" -ofn "D:/project2/final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraint.ucf -p xc6slx9-csg324-2 final.ngc final.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o final_map.ncd final.ngd final.pcf 
+par -w -intstyle ise -ol high -mt off final_map.ncd final.ncd final.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml final.twx final.ncd -o final.twr final.pcf -ucf constraint.ucf 
+bitgen -intstyle ise -f final.ut final.ncd 
+xst -intstyle ise -ifn "D:/project2/final.xst" -ofn "D:/project2/final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraint.ucf -p xc6slx9-csg324-2 final.ngc final.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o final_map.ncd final.ngd final.pcf 
+par -w -intstyle ise -ol high -mt off final_map.ncd final.ncd final.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml final.twx final.ncd -o final.twr final.pcf -ucf constraint.ucf 
+bitgen -intstyle ise -f final.ut final.ncd 
+xst -intstyle ise -ifn "D:/project2/final.xst" -ofn "D:/project2/final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraint.ucf -p xc6slx9-csg324-2 final.ngc final.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o final_map.ncd final.ngd final.pcf 
+par -w -intstyle ise -ol high -mt off final_map.ncd final.ncd final.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml final.twx final.ncd -o final.twr final.pcf -ucf constraint.ucf 
+bitgen -intstyle ise -f final.ut final.ncd 
+xst -intstyle ise -ifn "D:/project2/final.xst" -ofn "D:/project2/final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraint.ucf -p xc6slx9-csg324-2 final.ngc final.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o final_map.ncd final.ngd final.pcf 
+par -w -intstyle ise -ol high -mt off final_map.ncd final.ncd final.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml final.twx final.ncd -o final.twr final.pcf -ucf constraint.ucf 
+bitgen -intstyle ise -f final.ut final.ncd 
+xst -intstyle ise -ifn "D:/project2/final.xst" -ofn "D:/project2/final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraint.ucf -p xc6slx9-csg324-2 final.ngc final.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o final_map.ncd final.ngd final.pcf 
+par -w -intstyle ise -ol high -mt off final_map.ncd final.ncd final.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml final.twx final.ncd -o final.twr final.pcf -ucf constraint.ucf 
+bitgen -intstyle ise -f final.ut final.ncd 
+xst -intstyle ise -ifn "D:/project2/final.xst" -ofn "D:/project2/final.syr" 
+xst -intstyle ise -ifn "D:/project2/final.xst" -ofn "D:/project2/final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraint.ucf -p xc6slx9-csg324-2 final.ngc final.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o final_map.ncd final.ngd final.pcf 
+par -w -intstyle ise -ol high -mt off final_map.ncd final.ncd final.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml final.twx final.ncd -o final.twr final.pcf -ucf constraint.ucf 
+xst -intstyle ise -ifn "D:/project2/final.xst" -ofn "D:/project2/final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraint.ucf -p xc6slx9-csg324-2 final.ngc final.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o final_map.ncd final.ngd final.pcf 
+par -w -intstyle ise -ol high -mt off final_map.ncd final.ncd final.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml final.twx final.ncd -o final.twr final.pcf -ucf constraint.ucf 
+bitgen -intstyle ise -f final.ut final.ncd 
+xst -intstyle ise -ifn "D:/project2/final.xst" -ofn "D:/project2/final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraint.ucf -p xc6slx9-csg324-2 final.ngc final.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o final_map.ncd final.ngd final.pcf 
+par -w -intstyle ise -ol high -mt off final_map.ncd final.ncd final.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml final.twx final.ncd -o final.twr final.pcf -ucf constraint.ucf 
+bitgen -intstyle ise -f final.ut final.ncd 
+xst -intstyle ise -ifn "D:/project2/final.xst" -ofn "D:/project2/final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraint.ucf -p xc6slx9-csg324-2 final.ngc final.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o final_map.ncd final.ngd final.pcf 
+par -w -intstyle ise -ol high -mt off final_map.ncd final.ncd final.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml final.twx final.ncd -o final.twr final.pcf -ucf constraint.ucf 
+bitgen -intstyle ise -f final.ut final.ncd 
